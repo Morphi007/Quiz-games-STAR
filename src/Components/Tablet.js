@@ -37,7 +37,6 @@ const Tablet = () => {
       <main className="container flex flex-row min-h-screen justify-center items-center">
         <div className="flex bg-amber-300 broder shadow-xl rounded-xl	p-1 text-white font-bold">
           <span>
-            {" "}
             obtuviste: {puntuacion} de {Preguntas.length}{" "}
           </span>
           <button
@@ -61,7 +60,6 @@ const Tablet = () => {
           <div className="flex">{Preguntas[preguntAtual].question} </div>
         </div>
         <div>
-          {" "}
           {!areDisabled ? (
             <span className="flex text-white">
               Tiempo restante:{tiempoRestante}
